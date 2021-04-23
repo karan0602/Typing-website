@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  .containerTeam
+  {
+    width:80%;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 20;
+  }
+  .boxes
+  {
+
+    width: 270px;
+    height: 350px;
+    margin:100px auto ;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0 , 0, 0, 0.5);
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .imgbox 
+  {
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    position:relative;
+    left:90px;
+    top:50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgbox img 
+  {
+    width:100%;
+    height: 100%;
+  }
+  
+  .title
+  {
+    position: relative;
+    top:70px;
+    text-align: center;
+  }
+  
+  .title ul
+  {
+    position: relative;
+    font-size:25px;
+    color:white;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+    top:25px;
+    transition:0.5s;
+  }
+  
+  .title ul li 
+  {
+    margin:0 10px;
+  }
+  
+  .dummytext
+  {
+    position: relative;
+    text-align:center;
+    line-height: 1.3;
+    background: rgba(255,255,255,0.2);
+    transform: translateY(80px);
+    transition: transform 1s ease;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    color:white;
+    opacity: 1;
+    height: 80px;
+    font-size: 15px;
+  }
+  
+  .title h2 {
+    margin-top:48px;
+    color:white;
+    opacity:0.4;
+    transition:0.5s;
+    font-weight: 300;
+  }
+  
+  .containerTeam .boxes:hover .title ul 
+  {
+    opacity: 1;
+    cursor:pointer;
+  }
+  
+  .containerTeam .boxes:hover .title .dummytext
+  {
+    transform: translateY(18px);
+  }
+  .containerTeam .boxes:hover .title h2 
+  {
+    opacity:0.8;
+    margin-top:40px;
+  }
+  .boxes a
+  {
+    text-decoration: none;
+  }

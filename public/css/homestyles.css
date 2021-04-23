@@ -1,0 +1,57 @@
+
+.existing-letter
+{
+    background-color:green;
+    font-size:25px;
+    width:40%;
+    margin:auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top:50px;
+}
+
+
+.existing-letter a:hover
+{
+    color:white;
+    padding:0 3px;
+    cursor:pointer;
+}
+.button-group
+{
+    display:flex;
+    position: absolute;
+    right: 0;
+    top:100px;
+    margin-right:100px;
+}
+
+.button-group button
+{
+    font-size:15px;
+    padding:8px;
+    border:1px solid green;
+    transition: all 0.6s ease-in-out;
+}
+.one
+{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    width: 110px;
+}
+.two
+{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    width:100px;
+}
+
+.active
+{
+    background-color:#03506f;
+    color:black;
+    font-weight: bold;
+}

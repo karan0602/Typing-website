@@ -1,0 +1,237 @@
+
+body
+{
+    background-image: url(../images/keyboard3.jpg);
+    background-size: cover;
+    background-color: black;
+}
+
+
+/* navbar section  */
+
+nav
+{
+    font-weight: bold;
+    background-color: #058F98;
+}
+.navbar-brand
+{
+    font-size: 35px;
+}
+.LinkBox a
+{
+    margin-right:15px;
+    color:#fff;
+}
+.LinkBox a:hover
+{
+    color:#222831;
+}
+.logo 
+{
+    font-size: 30px;
+}
+
+.LinkBox 
+{
+    margin-left:auto;
+}
+.navbar-container
+{
+    padding:0;
+}
+.navbar-brand
+{
+    margin-left:20px;
+}
+
+
+/* quotes-section  */
+.quotes-section
+{
+    margin-top:5%;
+}
+.quotes-section div p
+{
+    font-size: 40px;
+    font-family: 'Niconne', cursive;
+    line-height: 1.1;
+    color:white;
+}
+
+.quotes-section span
+{
+    font-size:75px;
+    color :teal;
+}
+.quotes-section div p i
+{
+    position:relative;
+    color:skyblue;
+    font-size:44px;
+    bottom: 38px;
+}
+
+/* Why Section  */
+
+.why 
+{
+    text-align: center;
+    margin-top:6%;
+}
+.why h2 
+{
+    color:cadetblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.why p 
+{
+    font-size:20px;
+    color:#839b97
+}
+
+.subscribe 
+{
+    text-align: center;
+    padding:0;
+}
+.subscribe .first-div
+{
+    background-color: #1d1d1d;
+    color:white;
+    font-size: 27px;
+    padding: 5px 0;
+}
+
+.first-div p 
+{
+    margin-bottom: 0;
+    padding:10px 0;
+}
+
+.subscribe .second-div
+{
+    background-color: #2755F5;
+}
+
+.second-div p 
+{
+    font-size:23px;
+    color:white;
+    margin-bottom : 0;
+    padding:25px 0 ;
+    font-weight: bold;
+}
+.subscribe .row
+{
+    background-color: #000000;
+    padding: 40px 0;
+    border-radius: 15px;
+}
+.inner-box
+{
+    width: 60%;
+    margin:0 auto ;
+    padding-bottom: 70px;
+}
+
+.texting
+{
+    width:100%;
+    height: 40px;
+    border-radius:10px;
+    border:none;
+    padding-left:15px;
+    font-weight: bold;
+    color:#D27474;
+}
+.texting::placeholder
+{
+    color:#D27474;
+}
+
+.inner-box button
+{
+    padding :6px;
+    width:121px;
+    border-radius: 10px;
+    border:none;
+    color:#D27474;
+    font-weight: bold;
+    height: 100%;
+}
+
+
+/* Team Styling  */
+
+.teamBox
+{
+    width:60%;
+    margin:7% auto 10% auto ;
+}
+.team-heading
+{
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-family: 'Lobster', cursive;
+    margin:50px 0 25px 0;
+}
+.profileBox
+{
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    background-color: gray;
+    position: relative;
+    border-radius: 50px;
+    z-index: 1;
+}
+.photo
+{
+    width :100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+.photo-title
+{
+    position: relative;
+    width:160px;
+    left:125px;
+    z-index: 2;
+    font-weight: bold;
+    text-align: left;
+}
+.second-rowProfile
+{
+    display: flex;
+    margin-top:20px;
+    justify-content: space-between;
+}
+.firstRow-profile
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i:hover
+{
+    cursor:pointer;
+}
+.profileBox img
+{
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.profileBox:hover
+{
+    transition: all 0.4s ease;
+    box-shadow: 2px 2px 1px 1px grey;
+    cursor: pointer;
+}
